@@ -22,14 +22,6 @@ button {
   padding: 8px 12px;
   cursor: pointer;
 }
-/* ul {
-  margin: 0;
-  padding: 0;
-  list-style: none;
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  text-align: center;
-} */
 .gallery {
   margin: 0;
   padding: 0;
@@ -38,7 +30,6 @@ button {
   justify-content: center;
   flex-wrap: wrap;
 }
-
 .image {
   min-width: 200px;
   max-width: 500px;
