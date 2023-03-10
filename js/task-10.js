@@ -11,6 +11,8 @@ const refs = {
   boxOfBlocks: document.querySelector("#boxes"),
   controlsEl: document.querySelector("#controls"),
 };
+refs.createBtn.addEventListener("click", createBoxes);
+refs.removeBtn.addEventListener("click", destroyBoxes);
 
 function createBoxes() {
   const widthHeigth = 30;
@@ -28,6 +30,3 @@ function createBoxes() {
 function destroyBoxes() {
   refs.boxOfBlocks.innerHTML = "";
 }
-
-refs.createBtn.addEventListener("click", createBoxes);
-refs.removeBtn.addEventListener("click", destroyBoxes);

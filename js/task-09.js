@@ -10,6 +10,7 @@ const hexColorOfBody = document.querySelector(".color");
 changeColorBtn.addEventListener("click", ocChangeColorBtn);
 
 function ocChangeColorBtn() {
-  document.body.style.backgroundColor = `${getRandomHexColor()}`;
-  hexColorOfBody.textContent = `${getRandomHexColor()}`;
+  const randomColor = `${getRandomHexColor()}`;
+  document.body.style.backgroundColor = randomColor;
+  hexColorOfBody.textContent = randomColor;
 }
